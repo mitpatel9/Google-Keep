@@ -1,0 +1,30 @@
+.sidebar{
+    flex: 1;  
+   
+}
+.navlink{
+    text-decoration: none;
+    color: black;
+}
+.navlink:hover{
+    color: rgb(134, 134, 2);
+}
+.sidebaropen{
+    display: none;
+}
+.sidebarwrapper{
+    padding: 20px;
+}
+.sidebaritem{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.sidebaricon{
+    font-style: 24px !important;
+    margin-right: 10px;
+
+}
+.sidebartitle{
+    font-size: 16px;
+}

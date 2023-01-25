@@ -1,0 +1,35 @@
+.login{
+ width: 90vw;
+ height: 90vh;
+ display: flex;
+ margin: 0;
+ align-items: center;
+ justify-content: center;
+}
+.logincontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+.loginform{
+    display: flex;
+    flex-direction: column;
+}
+
+.logininput{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.loginsubmit{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}

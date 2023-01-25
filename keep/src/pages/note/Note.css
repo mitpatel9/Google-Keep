@@ -1,0 +1,40 @@
+.note {
+    flex: 6;
+    padding: 20px;
+    flex-direction: column;
+}
+.notetitle {
+    color: gray;
+    font-style: 400;
+}
+.notetop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.notebottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    align-items: center;
+}
+.noteinput{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.noteinput:focus{
+    outline: none;
+}
+.notebutton{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    color: black;
+    background-color: lightgreen;
+    
+}
+ 

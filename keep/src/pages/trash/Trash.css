@@ -1,0 +1,8 @@
+.trash{
+    padding: 20px;
+    flex: 6;
+}
+.deletetitle {
+    color: gray;
+    font-style: 400;
+}

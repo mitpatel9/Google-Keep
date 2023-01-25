@@ -1,0 +1,62 @@
+.reminder{
+    flex: 6;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.remindertitle {
+    color: gray;
+    font-style: 400;
+}
+
+.remindertop {
+    margin-top: 10px;
+    align-items: center;
+}
+
+.remindertopcontainer {
+    width: 40%;
+    height: 40px;
+}
+.accordian{
+   
+    background-color: white !important;
+    border-radius: 10px !important;
+}
+.remindertopseaarch {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.remindertopinput {
+    width: 350px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+}
+.remindertopinput:focus{
+    outline: none;
+}
+.remindertopIcon{
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+ .remindertopinputtext {
+    width: 350px;
+    height: auto;
+    border: none;
+}
+.remindertopinputtext:focus{
+    outline: none;
+} 
+.remindertoptextareaicon{
+    display: flex;
+    justify-content: space-between;
+}
+.textareaicon{
+    font-style: 24px;
+    margin-right: 10px;
+}
